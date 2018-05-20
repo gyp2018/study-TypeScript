@@ -1,0 +1,13 @@
+{
+  "name": "study-TypeScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "type": "tsc src/ch.1.ts"
+  }
+}
