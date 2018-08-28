@@ -30,14 +30,14 @@ let list: number[] = [1, 2, 3];
 // Tuple
 let x: [string, number];
 x = ["hello", 10]; // OK
-x = [10, "hello"]; // Error
+// x = [10, "hello"]; // Error
 
 console.log(x[0].substr(1)); // OK
-console.log(x[1].substr(1)); // Error
+// console.log(x[1].substr(1)); // Error
 
 x[3] = "world"; // OK
 console.log(x[5].toString()); // OK
-x[6] = true; // Error
+// x[6] = true; // Error
 
 // Enum
 // enum Color {Red, Green, Blue}
